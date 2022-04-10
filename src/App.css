@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+
+:root {
+  --antiquebrass: rgb(203, 153, 126);
+  --desertsand: rgb(221, 190, 169);
+  --champagnepink: rgb(255, 232, 214);
+  --ashgray: rgb(183, 183, 164);
+  --artichoke: rgb(165, 165, 141);
+  --ebony: rgb(107, 112, 92);
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  -moz-appearance: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  border-radius: 0;
+}
