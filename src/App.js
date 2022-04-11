@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import LandingPage from "./components/landingPage/LandingPage";
 import About from "./components/about/About";
@@ -8,6 +8,14 @@ import Modal from "./components/modal/Modal";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = 'hidden'
+    }else{
+      document.body.style.overflow = ''
+    }
+  }, [showModal])
 
   return (
     <div className="App">
