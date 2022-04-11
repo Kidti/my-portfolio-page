@@ -22,4 +22,8 @@
 
 .contact-box img{
     cursor: pointer;
+    height: 70px;
+    
+    margin-top: 300px;
+    
 }

@@ -42,7 +42,7 @@ function App() {
       <Navbar setShowModal={setShowModal} showModal={showModal} Modal={Modal} />
       <LandingPage />
       <About />
-      <Contact scrollToTop={scrollToTop} />
+      <Contact scrollToTop={scrollToTop} showButton={showButton}/>
     </div>
   );
 }
