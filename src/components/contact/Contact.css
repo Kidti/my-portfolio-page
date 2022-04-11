@@ -25,5 +25,10 @@
     height: 70px;
     
     margin-top: 300px;
-    
 }
+
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
