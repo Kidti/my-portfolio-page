@@ -45,6 +45,7 @@
     margin-top: 15px;
 
     transition: .40s ease-out;
+    box-shadow: 2px 2px rgb(167, 165, 165);
   }
   
   .hamburger-close:nth-child(1) {

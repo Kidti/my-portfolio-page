@@ -1,4 +1,25 @@
 .contact-page{
     height: 100vh;
-    background-color: beige;
+    background-color: var(--hookersgreen);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.contact-box{
+   text-align: center;
+   color: whitesmoke;
+}
+
+.contact-box h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 2px;
+}
+
+.contact-box img{
+    cursor: pointer;
 }

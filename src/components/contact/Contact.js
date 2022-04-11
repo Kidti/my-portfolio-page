@@ -1,12 +1,15 @@
-import './Contact.css'
+import "./Contact.css";
+import arrow from "./uparrow.png";
 
-const Contact = () => {
+const Contact = ({scrollToTop}) => {
   return (
-    <div className='contact-page'>
-      <h2 id="contact">Contact Me</h2>
-      <button>To the top</button>
+    <div className="contact-page">
+      <div className="contact-box">
+        <h2 id="contact">Contact</h2>
+        <img onClick={scrollToTop} src={arrow} alt="up-arrow" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
