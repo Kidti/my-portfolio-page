@@ -16,19 +16,46 @@
 .contact-box h2{
     text-transform: uppercase;
     font-size: 30px;
-    border-bottom: 2px solid whitesmoke;
-    border-radius: 2px;
+    /*border-bottom: 2px solid whitesmoke;
+    border-radius: 2px;*/
+
+    margin-bottom: 300px;
 }
 
-.contact-box img{
+.contact-box p{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.up-arrow{
     cursor: pointer;
-    height: 70px;
-    
-    margin-top: 300px;
+    height: 80px;
+}
+.contact-box img:hover{
+    transform: scale(1.2);
 }
 
-.social-icons{
+.social-icons-box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
+
+.social-icons-box img{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer{
+    background-color: rgba(8, 26, 8, 0.445);
+
+    width: 100vw;
+    height: 23vh;
+}
+
+
 

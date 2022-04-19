@@ -21,11 +21,29 @@
   font-size: 35px;
 }
 
+@media only screen and (max-width: 765px) {
+  .modal-background h2 {
+    font-size: 30px;
+    height: 4rem;
+    width: 12rem;
+    padding: 10px 5px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .modal-background h2 {
     font-size: 20px;
     height: 3rem;
     width: 7rem;
+    padding: 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .modal-background h2 {
+    font-size: 17px;
+    height: 3rem;
+    width: 6rem;
     padding: 10px 5px;
   }
 }

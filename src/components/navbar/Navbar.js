@@ -9,7 +9,7 @@ const Navbar = ({ Modal, Link, setShowModal, showModal }) => {
         <p className={!showModal ? "hamburger-open" : "hamburger-close"}></p>
       </div>
       <a href="https://github.com/Kidti" target="_blank" rel="noreferrer noopener">
-        <img src={githubLogo} alt="githubLogo" />
+        <img src={githubLogo} alt="github-logo" />
       </a>
       {showModal && <Modal Link={Link} setShowModal={setShowModal}/>}
     </header>
