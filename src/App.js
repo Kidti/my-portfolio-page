@@ -5,6 +5,7 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Navbar from "./components/navbar/Navbar";
 import Modal from "./components/modal/Modal";
+import FadeInSection from "./components/fade-in-section/FadeInSection";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -30,8 +31,12 @@ function App() {
     <div className="App">
       <Navbar setShowModal={setShowModal} showModal={showModal} Modal={Modal} />
       <LandingPage />
-      <About />
-      <Contact scrollToTop={scrollToTop} />
+      <FadeInSection>
+        <About />
+      </FadeInSection>
+      <FadeInSection>
+        <Contact scrollToTop={scrollToTop} />
+      </FadeInSection>
     </div>
   );
 }

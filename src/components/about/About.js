@@ -1,11 +1,12 @@
 import "./About.css";
 import icon from "./icon.png";
 import mypic from "./mypic.png"
+import skill from "./skills.png"
 
 const About = () => {
   return (
     <div className="about-page" id="about-me">
-      <h2>About Me</h2>
+      <h1>About Me</h1>
       <div className="about-box">
 
           <div className="icon-box icon-1"><img src={icon} alt="icon" /><p>Transparent</p></div>
@@ -27,7 +28,7 @@ const About = () => {
         </div>
 
         <div className="skills">
-          Some skills somehow
+          <img src={skill} alt="skills-info"/>
         </div>
 
       </div>

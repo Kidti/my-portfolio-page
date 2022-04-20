@@ -9,14 +9,14 @@
   align-items: center;
   align-self: flex-start;
 
-  border-top: 30px solid whitesmoke;
+  border-top: 30px solid white;
   border-right: 150px solid transparent;
   border-left: 150px solid transparent;
 }
 
 @media only screen and (max-width: 600px) {
   .contact-page {
-    border-top: 30px solid whitesmoke;
+    border-top: 30px solid white;
     border-right: 50px solid transparent;
     border-left: 50px solid transparent;
   }

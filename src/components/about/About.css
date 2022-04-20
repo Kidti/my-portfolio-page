@@ -1,46 +1,65 @@
-.about-page{
-    height: 150vh;
-    background-color: whitesmoke;
+.about-page {
+  height: 150vh;
+  background-color: white;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-box{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(2, 1fr);
+.about-page h1 {
+  font-size: 30px;
 }
 
-.icon-box{
-    justify-self: center;
-    align-self: center;
-    text-align: center;
+.about-box {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 1fr);
 }
 
-.about-box img{
-    height: 100px;
+.icon-box {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
 }
 
-.textbox{
-    grid-column-start: 2;
+.about-box img {
+  height: 100px;
 }
 
-.textbox img{
-    height: 200px;
+.textbox {
+  grid-column-start: 2;
+  text-align: center;
 }
 
-.skills{
-    grid-column-start: 3;
+.textbox img {
+  height: 200px;
 }
 
-@media only screen and (max-width: 600px) {
-    .about-box {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-    }
+.skills {
+  grid-column-start: 3;
+  align-self: center;
+}
+
+.skills img {
+  height: 200px;
+}
+
+@media only screen and (max-width: 810px) {
+  .about-page h1 {
+    margin-bottom: 40px;
   }
+  .about-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icon-box {
+    flex-basis: 40%;
+  }
+  .skills img {
+    height: 100px;
+  }
+}
