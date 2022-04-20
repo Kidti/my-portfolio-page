@@ -1,11 +1,11 @@
 import './About.css'
 
-const About = () => {
+const About = ({domRef, isVisible}) => {
   return (
-    <div className='about-page'>
-      <h2 id="about-me">About</h2>
+    <div className="about-page"  ref={domRef}>
+      <h2 id="about-me">About Me</h2>
       <div className='skills-box'>
-        <div></div>
+        <div>HIIIIIIII</div>
 
       </div>
     </div>

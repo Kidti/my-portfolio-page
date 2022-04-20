@@ -8,7 +8,6 @@ import Modal from "./components/modal/Modal";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
-  const [showButton, setShowButton] = useState(false);
 
   // for preventing scrolling when the modal is open
   useEffect(() => {
@@ -20,16 +19,6 @@ function App() {
   }, [showModal]);
 
   // This function will scroll the window to the top
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    });
-  }, []);
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -41,8 +30,8 @@ function App() {
     <div className="App">
       <Navbar setShowModal={setShowModal} showModal={showModal} Modal={Modal} />
       <LandingPage />
-      <About />
-      <Contact scrollToTop={scrollToTop} showButton={showButton}/>
+        <About />
+      <Contact scrollToTop={scrollToTop} />
     </div>
   );
 }
