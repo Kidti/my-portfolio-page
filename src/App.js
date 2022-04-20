@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
 import "./App.css";
+import React, { useState, useEffect } from "react";
 import LandingPage from "./components/landingPage/LandingPage";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <Navbar setShowModal={setShowModal} showModal={showModal} Modal={Modal} />
       <LandingPage />
-        <About />
+      <About />
       <Contact scrollToTop={scrollToTop} />
     </div>
   );

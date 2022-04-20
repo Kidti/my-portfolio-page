@@ -1,4 +1,46 @@
 .about-page{
     height: 150vh;
     background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.about-box{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.icon-box{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.about-box img{
+    height: 100px;
+}
+
+.textbox{
+    grid-column-start: 2;
+}
+
+.textbox img{
+    height: 200px;
+}
+
+.skills{
+    grid-column-start: 3;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-box {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+  }
