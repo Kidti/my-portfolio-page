@@ -6,7 +6,8 @@ import skill from "./skills.png"
 const About = () => {
   return (
     <div className="about-page" id="about-me">
-      <h1>About Me</h1>
+        <h1>About Me</h1>
+      
       <div className="about-box">
 
           <div className="icon-box icon-1"><img src={icon} alt="icon" /><p>Transparent</p></div>
