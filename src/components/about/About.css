@@ -11,23 +11,27 @@
 .about-page h1 {
   font-size: 30px;
   text-align: center;
+  color: rgb(22, 61, 120);
 }
 
 .about-box {
   display: grid;
+  justify-content: center;
   gap: 10px;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(4, 23%);
   grid-template-rows: repeat(2, 1fr);
 }
 
 .icon-box {
-  justify-self: center;
   align-self: center;
   text-align: center;
+
+  height: 200px;
 }
 
 .about-box img {
   height: 100px;
+  align-self: center;
 }
 
 .textbox {
@@ -49,6 +53,9 @@
 }
 
 @media only screen and (max-width: 810px) {
+  .about-page {
+    height: auto;
+  }
   .about-page h1 {
     margin-bottom: 40px;
   }
@@ -59,6 +66,7 @@
   }
   .icon-box {
     flex-basis: 40%;
+    align-self: flex-start;
   }
   .skills img {
     height: 100px;

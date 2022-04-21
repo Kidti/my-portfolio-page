@@ -21,7 +21,8 @@
 }
 
 body {
-  font-family: "Exo", sans-serif;
+  font-family: "Exo", sans-serif;	
+  cursor: url("./cursor.png"), auto;
 }
 
 ol,
