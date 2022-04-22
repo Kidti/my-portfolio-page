@@ -45,7 +45,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .contact-form input {
+  .contact-form input, textarea {
     width: 250px;
   }
 }
