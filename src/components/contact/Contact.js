@@ -4,12 +4,15 @@ import arrow from "./up-arrow.png";
 import githubLogo from "./github-white.png";
 import linkedin from "./linkedin-logo.png";
 
+import ContactForm from "./ContactForm";
+
 const Contact = ({ scrollToTop }) => {
   return (
       <div className="contact-page">
         <FadeInSection>
         <div className="contact-box">
           <h2 id="contact">Contact</h2>
+          <ContactForm/><p>...or click here:</p>
           <p className="e-mail">e-mail: <a href="mailto:kitti.deb@gmail.com">kitti.deb@gmail.com</a></p>
           <div className="footer">
             <img className="up-arrow" onClick={scrollToTop} src={arrow} alt="up-arrow" />

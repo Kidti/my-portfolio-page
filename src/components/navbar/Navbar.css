@@ -29,6 +29,9 @@
       height: 3rem;
       width: 10rem;
     }
+    .app-header img{
+      display: none;
+    }
   }
   
   .hamburger-lines {
