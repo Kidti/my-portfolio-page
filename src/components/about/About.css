@@ -75,7 +75,8 @@
 
 .mypic {
   height: 300px;
-  border-radius: 80px;
+  border: 2px outset var(--darkgray);
+  border-radius: 16px;
   margin-bottom: 20px;
 }
 

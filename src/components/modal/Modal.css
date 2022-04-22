@@ -1,5 +1,5 @@
 .modal-background {
-  background-color: var(--redviolet);
+  background-color: var(--woodsmoke);
   height: 100%;
   width: 40%;
   top: 0;
@@ -12,7 +12,7 @@
   font-family: "Exo", sans-serif;
   text-transform: uppercase;
 
-  border: 1px solid var(--vibrantblue);
+  border: 1px solid var(--lightseagreen);
   width: 300px;
 
   text-align: center;
