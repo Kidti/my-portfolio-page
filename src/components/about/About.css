@@ -1,5 +1,5 @@
 .about-page {
-  height: 150vh;
+  height: 150vh auto;
   background-color: white;
 
   display: flex;
@@ -43,11 +43,10 @@
 .textbox {
   grid-column-start: 2;
   text-align: center;
-  padding: 10px;
 }
 
 .textbox img {
-  height: 200px;
+  height: 300px;
 }
 
 .skills {

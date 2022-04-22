@@ -5,6 +5,7 @@ import responsive from "./responsive.png";
 import learn from "./learn.png";
 import mypic from "./mypic.png";
 import skill from "./skills.png";
+import kittipic from "./kitti.png"
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
       <div className="about-box">
         <div className="icon-box icon-1">
           <img src={learn} alt="icon" />
-          <h3>Egaer to learn</h3>
+          <h3>Eager to learn</h3>
           <p>Constant learning and developing is really motivating for me.</p>
         </div>
         <div className="icon-box icon-2">
@@ -33,7 +34,7 @@ const About = () => {
         </div>
 
         <div className="textbox">
-          <img src={mypic} alt="this-is-me" />
+          <img src={kittipic} alt="this-is-me" />
           <p>
             Something interesting about me, some text, but I don't know yet what
             should I write about myself, I am not a very interesting person,
