@@ -30,13 +30,15 @@ function App() {
   return (
     <div className="App">
       <Navbar setShowModal={setShowModal} showModal={showModal} Modal={Modal} />
-      <LandingPage />
-      <FadeInSection>
-        <About />
-      </FadeInSection>
-      <FadeInSection>
-        <Contact scrollToTop={scrollToTop} />
-      </FadeInSection>
+      <div className={showModal ? "background-faded" : ""}>
+        <LandingPage />
+        <FadeInSection>
+          <About />
+        </FadeInSection>
+        <FadeInSection>
+          <Contact scrollToTop={scrollToTop} />
+        </FadeInSection>
+      </div>
     </div>
   );
 }

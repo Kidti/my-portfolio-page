@@ -1,7 +1,7 @@
 import "./Navbar.css";
-import githubLogo from "./github-logo.png";
+import githubLogo from "./github-white.png";
 
-const Navbar = ({ Modal, Link, setShowModal, showModal }) => {
+const Navbar = ({ Modal, setShowModal, showModal }) => {
   return (
     <header className="app-header">
       <div className="hamburger-lines" onClick={() => setShowModal(!showModal)}>
@@ -11,7 +11,7 @@ const Navbar = ({ Modal, Link, setShowModal, showModal }) => {
       <a href="https://github.com/Kidti" target="_blank" rel="noreferrer noopener">
         <img src={githubLogo} alt="github-logo" />
       </a>
-      {showModal && <Modal Link={Link} setShowModal={setShowModal}/>}
+      {showModal && <Modal setShowModal={setShowModal}/>}
     </header>
   );
 };

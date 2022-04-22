@@ -12,17 +12,30 @@
 @import url("https://fonts.googleapis.com/css?family=Exo:400,700");
 
 :root {
-  --operamauve: #AD7A99;
-  --beaublue: #B2CEDE;
-  --middlebluegreen: #8CDFD6;;
-  --middleblue: #6DC0D5;
-  --hookersgreen: #5A716A;
+  --operamauve: #ad7a99;
+  --beaublue: #b2cede;
+  --middlebluegreen: #8cdfd6;
+  --middleblue: #6dc0d5;
+  --hookersgreen: #5a716a;
   --lightergreen: rgba(164, 199, 164, 0.445);
+
+  --woodsmoke: #0b0c10;
+  --darkgray: #1f2833;
+  --silver: #c5c6c7;
+  --vibrantblue: #66fcf1;
+  --lightseagreen: #45a29e;
+  --redviolet: #c23c8e;
+  --balticsea: #252834;
 }
 
 body {
-  font-family: "Exo", sans-serif;	
-  cursor: url("./cursor.png"), auto;
+  font-family: "Exo", sans-serif;
+}
+
+.background-faded {
+ 
+  filter: blur(10px);
+  opacity: 1;
 }
 
 ol,

@@ -18,7 +18,7 @@ const LandingPage = () => {
         </ul>
       </div>
       <div className="context">
-        <h1>Hello, I'm <span style={{color:"var(--operamauve)"}}>Kitti</span>, <br/> I'm a Junior Frontend Developer.</h1>
+        <h1>Hello, I'm <span style={{color:"var(--redviolet)"}}>Kitti</span>, <br/> I'm a Junior Frontend Developer.</h1>
         <a href="#about-me">
           <button className="about-me-button">About Me</button>
         </a>

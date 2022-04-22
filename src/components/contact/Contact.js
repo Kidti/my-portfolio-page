@@ -23,7 +23,7 @@ const Contact = ({ scrollToTop }) => {
             </div>
             <p className="copyright">
               Szasz-Debreczeni Kitti{" "}
-              <span style={{ color: "var(--operamauve)" }}>Ⓒ2022</span>
+              <span style={{ color: "var(--redviolet)" }}>Ⓒ2022</span>
             </p>
           </div>
         </div>

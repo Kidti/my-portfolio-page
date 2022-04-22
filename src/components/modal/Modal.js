@@ -5,7 +5,7 @@ const Modal = ({ setShowModal }) => {
     <div className="modal-background">
       <div className="menu">
         <nav>
-          <a href="/">
+          <a href=" ">
             <h2 onClick={() => setShowModal(false)}>Home</h2>
           </a>
           <a href="#about-me">

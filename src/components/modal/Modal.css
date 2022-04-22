@@ -1,19 +1,18 @@
 .modal-background {
-  background-color: var(--operamauve);
+  background-color: var(--redviolet);
   height: 100%;
-  width: 50%;
+  width: 40%;
   top: 0;
   left: 0;
   position: fixed;
-  z-index: -1;
 }
 
 .modal-background h2 {
-  color: whitesmoke;
+  color: white;
   font-family: "Exo", sans-serif;
   text-transform: uppercase;
 
-  border: 1px solid var(--middlebluegreen);
+  border: 1px solid var(--vibrantblue);
   width: 300px;
 
   text-align: center;
@@ -67,7 +66,5 @@
   align-items: center;
 
   height: 100%;
-  position: fixed;
-  left: 10%;
- 
+  height: 100vh;
 }
