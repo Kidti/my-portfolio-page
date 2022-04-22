@@ -34,7 +34,6 @@ body {
 }
 
 .background-faded {
- 
   filter: blur(10px);
   opacity: 1;
 }
@@ -59,10 +58,6 @@ button,
 a {
   cursor: pointer;
   color: inherit;
-}
-
-textarea {
-  resize: none;
 }
 
 button,

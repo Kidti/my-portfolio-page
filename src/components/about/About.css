@@ -35,6 +35,7 @@
   height: 100px;
   align-self: center;
 }
+
 .about-box img:hover {
   transform: rotate(10deg);
 }
