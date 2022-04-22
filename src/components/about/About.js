@@ -37,22 +37,29 @@ const About = () => {
           <img className="mypic" src={kittipic} alt="this-is-me" />
           <div className="textbox">
             <p>
-              Hi! I'm Kitti, I am a Budapest based passionate wanting to be a
-              professional in a lot of frontend related things.
-              <br />I really hope that I will be able to build pages that are
-              not like those pages... You know, when you leave more frustrated
-              than satisfied after your time spent on the internet. I have
-              serious passion for learning UI effects, animations and creating
-              intuitive, dynamic user experiences.
-              <br />
-              It would be a great honour if you had the resources to smooth the
-              path of a newbie, and you'll see how grateful she'll be
-              afterwards. Also, some say I'm not so boring. Thank you for
-              visiting my page!
-              <br />
-              UI: if you feel frustrated by my site, please feel free to share
-              your thoughts and opinions on possible improvements. Thank you
-              very much.
+              Hi! I'm <span style={{ color: "var(--redviolet)" }}>Kitti</span>,
+              I am a Budapest based passionate wanting to be a professional in a
+              lot of frontend related things.
+              <p>
+                I really hope that I will be able to build pages that are not
+                like those pages... You know, when you leave more frustrated
+                than satisfied after your time spent on the internet. I have
+                serious passion for learning UI effects, animations and creating
+                intuitive, dynamic user experiences.
+              </p>
+              <p>
+                It would be a great honour if you had the resources to smooth
+                the path of a newbie, and you'll see how grateful she'll be
+                afterwards. Also, some say I'm not so boring.
+              </p>
+              <p>
+                UI: if you feel frustrated by my site, please feel free to share
+                your thoughts and opinions on possible improvements.
+                <br />{" "}
+                <span style={{ color: "var(--redviolet)" }}>
+                  Thank you for visiting my page!
+                </span>
+              </p>
             </p>
           </div>
         </div>

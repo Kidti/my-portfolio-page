@@ -39,7 +39,7 @@
 
 .about-box p{
   margin-bottom: 20px;
-  line-height: 160%;
+  line-height: 150%;
 }
 
 .icon-box {
@@ -67,10 +67,10 @@
   text-align: center;
 }
 
-.textbox{
-  max-width: 700px;
-  width: auto;
-
+.textbox p{
+  max-width: 500px;
+  text-align: left;
+  line-height: 170%;
 }
 
 .mypic {
