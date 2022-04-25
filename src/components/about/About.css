@@ -43,7 +43,7 @@
   height: 200px;
   max-width: 500px;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 
   flex-basis: 25%;
 }
@@ -58,26 +58,20 @@
 }
 
 .skills-info {
+  max-width: 600px;
   width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
+  max-height: 400px;
+  height: 100%;
+
   margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .about-page {
-    height: auto;
-  }
+@media only screen and (max-width: 800px) {
   .about-page h1 {
     margin-bottom: 40px;
   }
-  .about-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .icon-box {
-    flex-basis: 40%;
+    flex-basis: 50%;
     align-self: flex-start;
     margin-bottom: 90px;
   }

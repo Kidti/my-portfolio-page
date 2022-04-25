@@ -3,7 +3,7 @@ import lightbulb from "./icons/lightbulb-icon.png";
 import scale from "./icons/honesty-scale.png";
 import responsive from "./icons/responsive.png";
 import learn from "./icons/learn.png";
-import skill from "./icons/skills.png";
+import skill from "./icons/skills-icons.png";
 import Textbox from "./Textbox";
 
 const About = () => {
