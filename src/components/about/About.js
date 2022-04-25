@@ -1,10 +1,9 @@
 import "./About.css";
-import lightbulb from "./lightbulb-icon.png";
-import scale from "./honesty-scale.png";
-import responsive from "./responsive.png";
-import learn from "./learn.png";
-import skill from "./skills.png";
-import kittipic from "./kitti.png";
+import lightbulb from "./icons/lightbulb-icon.png";
+import scale from "./icons/honesty-scale.png";
+import responsive from "./icons/responsive.png";
+import learn from "./icons/learn.png";
+import skill from "./icons/skills.png";
 import Textbox from "./Textbox";
 
 const About = () => {
@@ -35,7 +34,7 @@ const About = () => {
         </div>
 
         <Textbox/>
-        
+
         <img className="skills-info" src={skill} alt="skills-info" />
 
       </div>

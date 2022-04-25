@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Textbox.css";
-import kittipic from "../about/kitti.png";
+import kittipic from "./icons/kitti.png";
 
 const Textbox = () => {
   const [readMore, setReadMore] = useState(false);
