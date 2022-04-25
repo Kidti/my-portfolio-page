@@ -3,14 +3,15 @@ import lightbulb from "./lightbulb-icon.png";
 import scale from "./honesty-scale.png";
 import responsive from "./responsive.png";
 import learn from "./learn.png";
-import mypic from "./mypic.png";
 import skill from "./skills.png";
 import kittipic from "./kitti.png";
+import Textbox from "./Textbox";
 
 const About = () => {
   return (
     <div className="about-page" id="about-me">
       <h1>About Me</h1>
+
       <div className="about-box">
         <div className="icon-box icon-1">
           <img className="icon" src={learn} alt="icon" />
@@ -33,40 +34,10 @@ const About = () => {
           <p>Strong desire for easy to use, intuitive UX/UI.</p>
         </div>
 
-        <div className="my-story">
-          <img className="mypic" src={kittipic} alt="this-is-me" />
-          <div className="textbox">
-            <p>
-              Hi! I'm <span style={{ color: "var(--redviolet)" }}>Kitti</span>,
-              I am a Budapest based passionate wanting to be a professional in a
-              lot of frontend related things.
-              <p>
-                I really hope that I will be able to build pages that are not
-                like those pages... You know, when you leave more frustrated
-                than satisfied after your time spent on the internet. I have
-                serious passion for learning UI effects, animations and creating
-                intuitive, dynamic user experiences.
-              </p>
-              <p>
-                It would be a great honour if you had the resources to smooth
-                the path of a newbie, and you'll see how grateful she'll be
-                afterwards. Also, some say I'm not so boring.
-              </p>
-              <p>
-                UI: if you feel frustrated by my site, please feel free to share
-                your thoughts and opinions on possible improvements.
-                <br />{" "}
-                <span style={{ color: "var(--redviolet)" }}>
-                  Thank you for visiting my page!
-                </span>
-              </p>
-            </p>
-          </div>
-        </div>
+        <Textbox/>
+        
+        <img className="skills-info" src={skill} alt="skills-info" />
 
-        <div className="skills">
-          <img src={skill} alt="skills-info" />
-        </div>
       </div>
     </div>
   );

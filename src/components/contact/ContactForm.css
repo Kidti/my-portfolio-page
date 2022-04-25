@@ -1,10 +1,11 @@
 .contact-form form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  align-self: center;
+
   width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .contact-form input, textarea{
@@ -15,8 +16,9 @@
   padding: 10px;
   margin-bottom: 5px;
 
-  max-width: auto;
-  width: 300px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .contact-form textarea {
@@ -46,6 +48,7 @@
 
 @media only screen and (max-width: 600px) {
   .contact-form input, textarea {
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
   }
 }
