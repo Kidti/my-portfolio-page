@@ -1,5 +1,7 @@
 .modal-background {
-  background-color: var(--woodsmoke);
+  background-color: var(--dark);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   height: 100%;
   width: 40%;
   top: 0;
