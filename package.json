@@ -2,7 +2,7 @@
   "name": "my-portfolio-page",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://kidti.github.io",
+  "homepage": "http://kidti.github.io/my-portfolio-page",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
