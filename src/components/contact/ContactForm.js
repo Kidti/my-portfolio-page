@@ -7,7 +7,7 @@ const ContactForm = () => {
       <form action="https://formsubmit.co/kitti.deb@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="New e-mail from website!" />
         <input type="text" name="name" placeholder="Name" required />
-        <input type="hidden" name="_next" value="http://localhost:3000/" />
+        <input type="hidden" name="_next" value="https://kidti.github.io/my-portfolio-page/" />
         <input type="email" name="email" placeholder="Enter your e-mail" required />
         <textarea type="text" name="message" placeholder="Your message" maxLength="300" required />
         <button type="submit">Send</button>
